@@ -75,3 +75,6 @@ gem 'pry-rails'
 
 gem 'rubyzip', '~> 2.3.0'
 
+group :production do
+  gem 'pg'
+end
